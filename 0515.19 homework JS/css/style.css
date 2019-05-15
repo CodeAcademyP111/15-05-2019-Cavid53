@@ -1,0 +1,43 @@
+.left-nav{
+
+    width: 200px;
+    height: 754px;
+    background: black;
+    /* display: none; */
+    position: relative;
+    margin-left: -200px;
+}
+
+.left-nav .close{
+    color:white;
+    font-size: 35px;
+    margin-right: 5px;
+}
+
+.left-nav ul {
+    color: white;
+    list-style: none;
+    font-weight: 700;
+    position: absolute;
+    top: 70px;
+    left: -20px;
+    line-height: 66px;
+    font-size: 30px;
+    
+}
+
+.left-nav a {
+    text-decoration: none;
+    color: white;
+   
+    
+}
+
+.open{
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    border: 1px solid black;
+    font-size: 24px;
+    background: aqua;
+}
